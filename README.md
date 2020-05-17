@@ -1,3 +1,4 @@
+![github pages](https://github.com/ChiyosBigDragon/NagayaBoardGame/workflows/github%20pages/badge.svg)
 # 耐えろッ…レイテンシ！
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
