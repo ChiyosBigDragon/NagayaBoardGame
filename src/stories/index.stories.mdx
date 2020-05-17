@@ -1,0 +1,19 @@
+import { action } from "@storybook/addon-actions";
+import { Story, Meta, Preview, Props, Source, Description } from "@storybook/addon-docs/blocks";
+import { Square } from "../component/Square";
+
+<Meta title="hoge" parameters={{ component: Square }} />
+
+# Square
+
+何の変哲もない、ただのボタン。
+
+<Source code={`import Square from "../component/Square";`} />
+
+<Preview withSource="open">
+  <Story name="basic" >
+    <Square label="this is src" onClick={action('clicked')} />
+  </Story>
+</Preview>
+
+<Props of="." />

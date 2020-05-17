@@ -1,0 +1,19 @@
+import { action } from "@storybook/addon-actions";
+import { Story, Meta, Preview, Props, Source, Description } from "@storybook/addon-docs/blocks";
+import Robot from "../component/Robot";
+
+<Meta title="hogeaaa" parameters={{ component: Robot }} />
+
+# Robot
+
+何の変哲もない、ただのボタン。
+
+<Source code={`import Robot from "../component/Robot";`} />
+
+<Preview withSource="open">
+  <Story name="basic" >
+    <Robot label="this is src" />
+  </Story>
+</Preview>
+
+<Props of="." />
