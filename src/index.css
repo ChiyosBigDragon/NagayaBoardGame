@@ -17,27 +17,113 @@ ol, ul {
 	margin-bottom: 10px;
 }
 
+.robot {
+	width: 100%;
+	height: 100%;
+}
+.robot > svg {
+	width: 100%;
+	height: 100%;
+}
+
 .square {
-	background: #fff;
-	border: 1px solid #999;
-	float: left;
-	font-size: 24px;
-	font-weight: bold;
-	line-height: 34px;
-	height: 34px;
+	background: rgba(149, 165, 166, 0.1);
+	height: 40px;
+	width: 40px;
 	margin-right: -1px;
 	margin-top: -1px;
-	padding: 0;
-	text-align: center;
-	width: 34px;
+	box-sizing: border-box;
 }
 
-.square:focus {
-	outline: none;
+.square-0 {
+	border: 2.5px solid rgba(0, 0, 0, 0);
 }
-
-.kbd-navigation .square:focus {
-	background: #ddd;
+.square-1 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-2 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-3 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-4 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-5 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-6 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-7 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-8 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-9 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-10 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-11 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-12 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-13 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-14 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-15 {
+	border: 2.5px solid #546e7a;
 }
 
 .game {
