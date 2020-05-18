@@ -1,0 +1,139 @@
+body {
+	font: 14px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
+}
+
+ol, ul {
+	padding-left: 30px;
+}
+
+.board-row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.status {
+	margin-bottom: 10px;
+}
+
+.robot {
+	width: 100%;
+	height: 100%;
+}
+.robot > svg {
+	width: 100%;
+	height: 100%;
+}
+
+.square {
+	background: rgba(149, 165, 166, 0.1);
+	height: 40px;
+	width: 40px;
+	margin-right: -1px;
+	margin-top: -1px;
+	box-sizing: border-box;
+}
+
+.square-0 {
+	border: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-1 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-2 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-3 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-4 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-5 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-6 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-7 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-8 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-9 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-10 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-11 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-12 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-13 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-14 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-15 {
+	border: 2.5px solid #546e7a;
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+}
+
+.game-info {
+	margin-left: 20px;
+}
+
+
+/*# sourceMappingURL=main.f0c1e2b0.chunk.css.map*/
