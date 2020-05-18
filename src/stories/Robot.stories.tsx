@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, color, number } from "@storybook/addon-knobs";
-import Robot from '../component/Robot';
+import { Robot } from '../component/RicochetRobots/Robot';
 
 storiesOf('Robot', module).addDecorator(withKnobs)
 	.add('single', () => {

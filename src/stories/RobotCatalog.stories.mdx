@@ -1,12 +1,12 @@
 import { action } from "@storybook/addon-actions";
 import { Story, Meta, Preview, Props, Source, Description } from "@storybook/addon-docs/blocks";
-import Robot from "../component/Robot";
+import { Robot } from "../component/RicochetRobots/Robot";
 
 <Meta title="Robot" parameters={{ component: Robot }} />
 
 # Robot
 
-<Source code={`import Robot from "../component/Robot";`} />
+<Source code={`import { Robot } from "../component/RicochetRobots/Robot";`} />
 
 <Preview withSource="open">
   <Story name="catalog" >
