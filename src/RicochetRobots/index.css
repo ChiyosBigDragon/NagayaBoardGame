@@ -1,0 +1,192 @@
+body {
+	font: 14px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
+}
+
+ol, ul {
+	padding-left: 30px;
+}
+
+/* .board-row:after {
+	clear: both;
+	content: "";
+	display: table;
+} */
+
+.status {
+	margin-bottom: 10px;
+}
+
+.robot {
+	width: 100%;
+	height: 100%;
+}
+.robot > svg {
+	width: 100%;
+	height: 100%;
+}
+
+.goal {
+	width: 100%;
+	height: 100%;
+}
+.goal > svg {
+	width: 100%;
+	height: 100%;
+}
+
+.square {
+	height: 40px;
+	width: 40px;
+	margin-right: -1px;
+	margin-top: -1px;
+	box-sizing: border-box;
+}
+
+.square-robot {
+	position: absolute;
+	z-index: 5;
+}
+.square-robot-goal {
+	position: absolute;
+	z-index: 4;
+}
+.square-goal {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	box-sizing: inherit;
+	border: 0.5px solid #95a5a6;
+	z-index: 1;
+}
+
+.square-background {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	background: rgba(149, 165, 166, 0.1);
+	box-sizing: inherit;
+	border: 0.5px solid #95a5a6;
+	z-index: 0;
+}
+
+.square-select {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	box-sizing: inherit;
+	border: 2.5px solid #d500f9;
+	z-index: 2;
+}
+
+.square-wall {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	box-sizing: inherit;
+	z-index: 3;
+}
+
+.square-wall-0 {
+	border: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-1 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-2 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-3 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-4 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-5 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-6 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-7 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid rgba(0, 0, 0, 0);
+}
+.square-wall-8 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-wall-9 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-wall-10 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-wall-11 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid rgba(0, 0, 0, 0);
+	border-top: 2.5px solid #546e7a;
+}
+.square-wall-12 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-wall-13 {
+	border-right: 2.5px solid #546e7a;
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0);
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-wall-14 {
+	border-right: 2.5px solid rgba(0, 0, 0, 0);
+	border-bottom: 2.5px solid #546e7a;
+	border-left: 2.5px solid #546e7a;
+	border-top: 2.5px solid #546e7a;
+}
+.square-wall-15 {
+	border: 2.5px solid #546e7a;
+}
+
+.board-row {
+	display: flex;
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+}
+
+.game-info {
+	margin-left: 20px;
+}

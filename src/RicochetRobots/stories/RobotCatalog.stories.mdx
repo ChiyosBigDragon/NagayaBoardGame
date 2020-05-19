@@ -1,0 +1,24 @@
+import { action } from "@storybook/addon-actions";
+import { Story, Meta, Preview, Props, Source, Description } from "@storybook/addon-docs/blocks";
+import { Robot } from "../component/Robot";
+
+<Meta title="RicochetRobots/Robot" parameters={{ component: Robot }} />
+
+# Robot
+
+<Source code={`import { Robot } from "../component/RicochetRobots/Robot";`} />
+
+<Props of="." />
+
+<Preview withSource="close">
+  <Story name="catalog" >
+	<div style={{display: "flex", height: "100px"}}>
+		<Robot id="1" color="#ff1744" />
+		<Robot id="2" color="#2ecc71" />
+		<Robot id="3" color="#3498db" />
+		<Robot id="4" color="#ffb900" />
+	</div>
+  </Story>
+</Preview>
+
+
